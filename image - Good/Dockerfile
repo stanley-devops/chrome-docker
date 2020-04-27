@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM ubuntu:16.04
 
-RUN apt-get update && apt-get clean && apt-get install -y gnupg \
+RUN apt-get update && apt-get clean && apt-get install -y \
     x11vnc \
     xvfb \
     fluxbox \
